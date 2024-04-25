@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Server Tests",
+      "setup": "npm install --prefix server",
+      "run": "npm test --prefix server",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": null
+    },
+    {
+      "name": "Client tests",
+      "setup": "npm install --prefix client",
+      "run": "CI=true npm test --prefix client",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": null
+    }
+  ]
+}
